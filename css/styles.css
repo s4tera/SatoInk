@@ -1,0 +1,269 @@
+h1, h2, .Btn ,.pageIndex {
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.indexPage {
+    background-image: url(../img/wood-texture.png);
+    background-size: contain;
+}
+.aboutPage {
+    background-image: url(../img/Sec.png);
+    /* background-size: ; */
+}
+.worksPage {
+    background-image: url(../img/Sec.png);
+    overscroll-behavior: none;
+    margin: 0 15vw 0 15vw;
+}
+
+.box {
+    margin: 0;
+    width: 100vw;
+    /* height: 100wh; */
+    /* outline: 1px solid red;
+    opacity: 1 !important; */
+}
+.Sec {
+    /* margin: 5vw; */
+    padding: 5vw 10vw 5vw 10vw;
+    /* position: relative; */
+    /* display: flex; */
+    /* background-color: #fffefe; */
+    background-image: url(../img/Sec.png);
+    /* border: 5px solid #000; */
+    box-sizing: border-box;
+    width: 90vw;
+    height: 90vh;
+    transform:  rotate(-15deg);
+    box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+}
+@media (max-width: 800px) {
+    .Sec {
+        transform:  rotate(-10deg);
+    }
+}
+@media (max-width: 600px) {
+    .Sec {
+        transform:  rotate(-5deg);
+    }
+}
+.MainSec {
+    /* margin: 5vw; */
+    padding: 5vw;
+    position: relative;
+    display: flex;
+    background-image: url(../img/Sec.png);
+    /* background-color: #fffefe;
+    border: 5px solid #000; */
+    box-sizing: border-box;
+    width: 90vw;
+    height: 90vh;
+    transform:  rotate(-15deg);
+    align-items: center;
+    box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+}
+@media (max-width: 800px) {
+    .MainSec {
+        transform:  rotate(-10deg);
+    }
+}
+@media (max-width: 600px) {
+    .MainSec {
+        transform:  rotate(-5deg);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.MainTitle {
+    font-size: 3rem;
+}
+@media (max-width: 800px) {
+    .MainTitle {
+        font-size: 2rem;
+    }
+}
+.MainSec img
+{
+    width: 30vw;
+    transform:  rotate(-10deg);
+}
+.MainTitleName {
+    color: rgb(187, 0, 0);
+}
+.SecTitle {
+    font-size: 3rem;
+}
+.about {
+    position: relative;
+    display: flex;
+}
+@media (max-width: 600px) {
+    .about {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.myFace {
+    width: 25vw;
+    margin: 20px;
+    object-fit: contain;
+    object-position: center;
+    transform:  rotate(-5deg);
+    align-self: flex-start;
+}
+@media (max-width: 600px) {
+    .myFace {
+        align-self: center;
+        margin: 5px;
+    }
+}
+.profile {
+    width: 40vw;
+}
+@media (max-width: 800px) {
+    .profile {
+        width: 80vw;
+    }
+}
+
+.profile .myName {
+    font-size: 3rem;
+    font-family: "Noto Sans JP", sans-serif;
+}
+.profile .subTitle {
+    margin: 2vw 0 0;
+    font-size: 2.6rem;
+}
+.profile p {
+    /* margin: 5px 0 0; */
+    font-size: 1rem;
+}
+@media (max-width: 800px) {
+    .skill {
+            opacity: 0;
+    }
+}
+
+
+.works {
+    width: 100%;
+}
+.contact {
+    width: 100%;
+    height: auto;
+}
+.contactMail {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactBtn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Btn {
+    padding: 5px 5vw 5px 5vw;
+    margin: 10px;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 0;
+    background: #f0f0f0;
+}
+.Btn:hover {
+    color: #f0f0f0;
+    background: #000;
+}
+
+
+
+
+.worksTitle {
+    font-size: 3rem;
+}
+.worksMainImg {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+@media (max-width: 700px) {
+    .worksMainImg {
+        width: 60vw;
+    }
+}
+.worksFcontents {
+    display: flex;
+}
+/* .worksP {
+    font-size: 1rem;
+} */
+.softTime {
+    width: 20vw;
+    padding-right: 10px;
+    white-space: normal; /* デフォルトの設定でテキストが自動的に折り返される */
+    word-wrap: break-word; /* 長い単語を折り返す */
+    overflow-wrap: break-word; /* 長い単語を折り返す */
+}
+.seisakuHaikei {
+    width: 50vw;
+}
+.worksExplain {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+}
+@media (max-width: 700px) {
+    .worksExplain {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.worksExplainImg {
+    max-width: 100%;
+    max-height: 100vh;
+    width: 30vw;
+    height: auto;
+    margin: 0 10px 0 10px;
+    object-fit: contain;
+}
+@media (max-width: 700px) {
+    .worksExplainImg {
+        width: 60vw;
+    }
+}
+
+.worksFooter {
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+}
