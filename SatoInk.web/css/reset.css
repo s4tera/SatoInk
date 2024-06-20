@@ -1,0 +1,41 @@
+@charset "UTF-8";* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+fieldset {
+    border: 0 0
+}
+
+body {
+    line-height: 1.8;
+    font-size: 88%
+}
+
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,select,ul {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    border: 0 0;
+    vertical-align: top
+}
+
+a {
+    text-decoration: none
+}
+
+em {
+    font-style: normal
+}
+
+ul li {
+    list-style-type: none;
+    list-style-image: none
+}
+
+address {
+    font-style: normal
+}
