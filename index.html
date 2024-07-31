@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sato Ink Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo half-font">Sato Ink.</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h1 class="half-font">Sato Ink. Portfolio</h1>
+                <div class="featured-work">
+                    <img src="img/featured-work.jpg" alt="Featured Work">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div id="about" class="section">
+                <div class="container">
+                  <h2 class="section-title half-font">A<span class="highlight_about">b</span>out</h2>
+                  <div class="about-content">
+                    <div class="about-image">
+                      <img src="img/ikedasatoru.JPEG" alt="Ikeda Satoru">
+                    </div>
+                    <div class="about-text">
+                      <h3 class="name-emphasis">池田智 -Ikeda Satoru-</h3>
+                      <div class="self-intro">
+                        <p>2003年10月生まれ。神奈川県出身。趣味は「ゲーム」、「旅行」、「日記を書くこと」。</p>
+                        <p>「SatoInk.」とは「Sato(名前)」と「Ink(インク)」を組み合わせたもの。「Ink」は紙に染み込むようにデザインが人々の心に深く刻まれること、「.(ドット)」はInc.に似せ、企業体のような信頼感があるという意味。</p>
+                      </div>
+                      <div class="skills">
+                        <h4 class="half-font">Skills</h4>
+                        <ul>
+                          <li>Adobe Illustrator</li>
+                          <li>Adobe Photoshop</li>
+                          <li>Figma</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="works">
+            <div class="container">
+                <h2 class="section-title half-font">Works</h2>
+                <div class="works-grid">
+                    <a href="works/works_ando.html" class="work-item">
+                        <div class="work-image-container">
+                            <img src="img/AndoProject_poster1.png" alt="Work 1">
+                        </div>
+                        <div class="work-title">ANDO PROJECT 中間発表会</div>
+                    </a>
+                    <a href="works/works_allAbout.html" class="work-item">
+                        <div class="work-image-container">
+                            <img src="img/UnitAndScale.png" alt="Work 2">
+                        </div>
+                        <div class="work-title">ALL ABOUT 東京タワー</div>
+                    </a>
+                    <a href="works/works_fieldExerises.html" class="work-item">
+                        <div class="work-image-container">
+                            <img src="img/雑草ふりかけ.png" alt="Work 3">
+                        </div>
+                        <div class="work-title">雑草ふりかけ</div>
+                    </a>
+                    <a href="works/works_drink.html" class="work-item">
+                        <div class="work-image-container">
+                            <img src="img/ne221194_池田智_GD課題13.jpg" alt="Work 4">
+                        </div>
+                        <div class="work-title">Ginger Ale Recipe</div>
+                    </a>
+                    <!-- Add more work items as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div id="contact" class="section">
+                <div class="container">
+                  <h2 class="section-title half-font">Cont<span class="highlight_contact">a</span>ct</h2>
+                  <button id="emailButton" class="email-button">ne221194@senshu-u.jp</button>
+                  <div id="emailMenuOverlay" class="email-menu-overlay">
+                    <div id="emailMenu" class="email-menu">
+                      <button id="closeMenu" class="close-button">&times;</button>
+                      <h3>メール作成</h3>
+                      <button class="menu-item" data-action="gmail">
+                        <img src="img/gmail-icon.png" alt="Gmail icon" class="icon">
+                        Gmailで作成する
+                      </button>
+                      <button class="menu-item" data-action="outlook">
+                        <img src="img/outlook-icon.png" alt="Outlook icon" class="icon">
+                        Outlookで作成する
+                      </button>
+                      <button class="menu-item" data-action="yahoo">
+                        <img src="img/yahoo-icon.png" alt="Yahoo! Mail icon" class="icon">
+                        Yahoo!メールで作成する
+                      </button>
+                      <button class="menu-item" data-action="default">
+                        <img src="img/default-mail-icon.png" alt="Default mail app icon" class="icon">
+                        デフォルトのメールアプリから作成する
+                      </button>
+                      <div class="copy-section">
+                        <input type="text" id="emailCopy" value="ne221194@senshu-u.jp" readonly>
+                        <button class="copy-button" data-action="copy">
+                          コピー
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sato Ink. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
