@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'Half Regular';
     src: url('path/to/Half-Regular.woff2') format('woff2'),
-         url('path/to/Half-Regular.woff') format('woff');
+        url('path/to/Half-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,29 +11,13 @@
 :root {
     --primary-color: #333;
     --secondary-color: #f4f4f4;
-    --accent-color_about: #C1D8EA;
-    --accent-color_ando: #17489C;
-    --accent-color_field: #788F50;
-    --accent-color_allAbout: #E60012;
-    --accent-color_contact: #e55b5b;
+    --accent-color: #788F50;
     --background-color: #ffffff;
     --header-height: 80px;
 }
 
-.highlight_about {
-    color: var(--accent-color_about);
-}
-.highlight_contact {
-    color: var(--accent-color_contact);
-}
-.highlight_ando {
-    color: var(--accent-color_ando);
-}
-.highlight_allAbout {
-    color: var(--accent-color_allAbout);
-}
-.highlight_field {
-    color: var(--accent-color_field);
+.highlight {
+    color: var(--accent-color);
 }
 
 
@@ -262,7 +246,7 @@ h1 {
 }
 
 .email-button {
-    background-color: var(--accent-color_contact);
+    background-color: var(--accent-color);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -369,7 +353,7 @@ h1 {
     display: flex;
     align-items: center;
     padding: 5px 10px;
-    background-color: var(--accent-color_contact);
+    background-color: var(--accent-color);
     color: white;
     border: none;
     border-radius: 0 5px 5px 0;
